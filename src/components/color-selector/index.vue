@@ -1,3 +1,6 @@
+<style lang='scss'>
+  @import './color-selector.scss';
+</style>
 <template>
 <div class="color-selector__ih5">
   <div
@@ -103,14 +106,6 @@ export default {
         pickColorNone () {
             this.clearValue();
         }
-
     },
-
 };
 </script>
-
-<style lang='scss'>
-@import './color-selector.scss';
-</style>
-
-
