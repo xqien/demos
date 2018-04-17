@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import colorSelector from '@/components/color-selector'
-import select from '@/components/select'
+import select from '@/components/my-select'
 
 Vue.use(Router)
 
